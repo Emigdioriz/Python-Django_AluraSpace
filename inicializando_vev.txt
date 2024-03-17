@@ -1,0 +1,18 @@
+inicializando o ambiente virtual: venv/Scripts/activate
+para desabilitar: deactivate
+
+ATENÇÃO: Atentar-se para qual interpretador python o VScode está usando. Default é o do anaconda.
+Mas se estamos usando um venv, colocar o interpretador python do venv. Use o comando ctrl + Shift + p, escreva
+interpretador python e procure o do ambiente virtual utilziado 
+
+Subindo o servidor: python manage.py runserver
+
+Inderessando os arquivos static para o django: python manage.py runserver
+
+
+NO LINUX/MAC
+
+precisa-se criar um venv novo
+1- python3 -m venv Nome_do_venv
+2- source Nome_do_venv/bin/activate
+3- pip install -r requirements.txt

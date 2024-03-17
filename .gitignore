@@ -1,0 +1,39 @@
+# Arquivos e diretórios específicos do Django
+*.pyc
+__pycache__/
+*.sqlite3
+*.pyo
+*.pyc
+*.pyd
+*.swp
+*.swo
+*.log
+*.bak
+*.db
+*.db-journal
+
+# Arquivos e diretórios específicos do ambiente virtual
+venv/
+env/
+*.env
+
+# Arquivos e diretórios específicos do editor de código
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos e diretórios específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Outros arquivos e diretórios gerados durante o desenvolvimento
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.log
+*.bak
+*.db
+*.db-journal
